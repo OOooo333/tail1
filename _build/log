@@ -1,0 +1,16 @@
+# dune exec ToyCtest -- -p-asm test/compiler_inputs/20_comprehensive.tc
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/www/.cache/dune/db
+# Workspace root: /home/www/Downloads/ToyC_compiler-branch3
+# Auto-detected concurrency: 16
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /home/www/.opam/4.14.0/bin/ocamlc.opt -config > /tmp/dune_eaa702_output
